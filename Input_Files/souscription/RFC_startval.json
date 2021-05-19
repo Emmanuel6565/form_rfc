@@ -1,0 +1,20 @@
+{
+    "infos": {
+        "ticket": "Dev",
+        "demandeur": "none",
+        "beneficiaire": "none",
+        "groupeCreateur": "none",
+        "dateFinDemande": "none",
+        "debutPrevuImplemtentation": "none",
+        "finPrevuImplementation": "none",
+        "nna": "none",
+        "chaineDeService": "none",
+        "groupeAffectationSecondaire": "none",
+        "responsableGDC": "none",
+        "proprietaire": "none",
+        "responsableGMEP": "none",
+        "proprietaireGMEP": "none",
+        "description": "none",
+        "planImplementation": "none"
+    }
+}

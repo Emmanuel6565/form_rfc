@@ -1,0 +1,129 @@
+{
+    "title": "Ticketing as Code",
+    "$ref": "#/definitions/ticket_RFC",
+    "definitions" : {
+        "email_edf": {
+            "type": "string",
+            "format": "email"
+         },   
+        "ticket_RFC": {
+            "type": "object",
+            "properties": {
+                "infos": {
+                    "type": "object",
+                    "title": "Information sur le ticket RFC",
+                    "properties": {
+                        "ticket": {
+                            "options": {
+                                "disable_collapse": true
+                            },
+                            "title": "infos",
+                            "propertyOrder": 1,
+                            "type": "string"
+                        },
+                        "demandeur": {
+                            "type": "string",
+                            "title": "demandeur"
+                        },
+                        "beneficiaire": {
+                            "type": "string",
+                            "title": "demandeur"
+                        },
+                        "groupeCreateur": {
+                            "type": "string",
+                            "title": "groupeDemandeur"
+                        },
+                        "dateFinDemande": {
+                            "type": "string",
+                            "title": "dateFinDemande"
+                        },
+                        "debutPrevuImplemtentation": {
+                            "type": "string",
+                            "title": "debutPrevuImplementation"
+                        },
+                        "finPrevuImplementation": {
+                            "type": "string",
+                            "title": "finPrevuImplementation"
+                        },
+                        "nna": {
+                            "type": "string",
+                            "title": "nna"
+                        },
+                        "chaineDeService": {
+                            "type": "string",
+                            "title": "chaineDeService"
+                        },
+                        "groupeAffectationPrincipal": {
+                            "type": "string",
+                            "title": "groupeAffectationPrincipal",
+                            "enum": ["ITO_IESI2_LOTB_SN1"]
+                        },
+                        "groupeAffectationSecondaire": {
+                            "type": "string",
+                            "title": "groupeAffectationSecondaire"
+                        },
+                        "groupeAffectationTertiaire": {
+                            "type": "string",
+                            "title": "groupeAffectationTertiaire",
+                            "enum": ["ITO_IESI2_LOTB_SN1"]
+                        },
+                        "groupeAffectation4": {
+                            "type": "string",
+                            "title": "groupeAffectation4",
+                            "enum": ["ITO_IESI2_LOTB_SN1"]
+                        },
+                        "responsableGDC": {
+                            "type": "string",
+                            "title": "responsableGDC"
+                        },
+                        "proprietaire": {
+                            "type": "string",
+                            "title": "proprietaire"
+                        },
+                        "responsableGMEP": {
+                            "type": "string",
+                            "title": "responsableGMEP"
+                        },
+                        "proprietaireGMEP": {
+                            "type": "string",
+                            "title": "proprietaireGMEP"
+                        },
+                        "elementID_CI": {
+                            "type": "string",
+                            "title": "elementID_CI",
+                            "enum": ["ONE004906684"]
+                        },
+                        "elementIdentifiant": {
+                            "type": "string",
+                            "title": "elementIdentifiant",
+                            "enum": ["ONE-PROD-MAÎTRE"]
+                        },
+                        "description": {
+                            "type": "string",
+                            "title": "description"
+                        },
+                        "impactServiceUtilisateur": {
+                            "type": "string",
+                            "title": "impactServiceUtilisateur",
+                            "enum": ["non", "oui"]
+                        },
+                        "typeMEP": {
+                            "type": "string",
+                            "title": "typeMEP",
+                            "enum": ["Evolution fonctionnelle", "Correctif fonctionnel", "Evolution Technique", "Correctif Technique"]
+                        },
+                        "csapplicative": {
+                            "type": "string",
+                            "title": "csapplicative",
+                            "enum": ["Opération / Version majeure", "Opération / Version mineure", "Mise à niveau"]
+                        },
+                        "planImplementation": {
+                            "type": "string",
+                            "title": "planImplementation"
+                        }      
+                    }
+                }
+            }
+        }
+    }
+}
